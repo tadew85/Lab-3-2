@@ -1,0 +1,60 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.6) url("background.jpg") no-repeat;
+  background-size: 100%;
+}
+header {
+  font-size: 24px;
+  color: #fff;
+  margin: 15px;
+  padding: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  background-color: rgba(179, 178, 176, 0.6);
+  border-radius: 5px;
+}
+form > button {
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+input {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+.info_container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.info_container > div {
+  margin: 5px;
+  width: 250px;
+  height: 165px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+div > button {
+  position: static;
+  transform: translateX(235px);
+  border-radius: 50%;
+  margin: auto;
+  padding: 8px;
+  border: none;
+}
+div > p {
+  margin: 5px;
+  padding: 5px;
+}
